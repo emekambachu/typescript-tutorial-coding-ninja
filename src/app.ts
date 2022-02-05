@@ -15,9 +15,12 @@ class Invoice{
     }
 
     format(){
-
+        return `${this.client} owes $${this.amount} for ${this.details}`;
     }
 }
+
+const invOne = newInvoice('mario', 'Work on the mario website', 250);
+
 
 const form = document.querySelector('.new-item-form') as HTMLFormElement;
 console.log(form.children);
