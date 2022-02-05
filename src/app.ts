@@ -19,7 +19,7 @@ class Invoice{
     }
 }
 
-const invOne = newInvoice('mario', 'Work on the mario website', 250);
+const invOne = new Invoice('mario', 'Work on the mario website', 250);
 
 
 const form = document.querySelector('.new-item-form') as HTMLFormElement;
